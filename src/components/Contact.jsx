@@ -215,13 +215,13 @@ function Contact() {
 
       {/* top circle */}
       <img
-        src="public/assets/Footerircle.svg"
+        src="public/Ez_Labs_Assignment/assets/Footerircle.svg"
         alt="footercircle"
         className="absolute -z-10 bottom-1/2 left-2/5 translate-x-1/2"
       />
       {/* bottom circle */}
       <img
-        src="public/assets/Footerircle.svg"
+        src="public/Ez_Labs_Assignment/assets/Footerircle.svg"
         alt="footercircle"
         className="absolute -z-10 top-1/2 right-2/5 -translate-x-1/2"
       />

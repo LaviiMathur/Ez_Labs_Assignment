@@ -8,7 +8,7 @@ function Services() {
       id: "film",
       title: `"Filmmaking is a chance to live many lifetimes." - Robert Altman`,
       heading: "Film Production",
-      img: "/assets/film.png",
+      img: "/Ez_Labs_Assignment/assets/film.png",
       content: `
 Art isn’t meant to sit on distant walls — it’s meant to breathe, to travel, to belong.<br/>
 Through every festival, every performance, and every gathering, we help stories find their stage and their people.<br/><br/>
@@ -25,7 +25,7 @@ V curates:<br/>
       id: "branding",
       title: `A brand is a voice, and a product is a souvenir." - Lisa Gansky`,
       heading: "Branding",
-      img: "/assets/branding.png",
+      img: "/Ez_Labs_Assignment/assets/branding.png",
       content: `
 A brand isn’t just what you see — it’s what you remember, what you carry home, and what you trust.<br/>
 We shape brands that people remember, return to, and fall in love with.<br/><br/>
@@ -43,7 +43,7 @@ V creates:<br/>
       id: "art",
       title: `A brand is a voice, and a product is a souvenir." - Lisa Gansky`,
       heading: "Art Curation",
-      img: "/assets/art.png",
+      img: "/Ez_Labs_Assignment/assets/art.png",
       content: `
 A brand isn’t just what you see — it’s what you remember, what you carry home, and what you trust.<br/>
 We shape brands that people remember, return to, and fall in love with.<br/><br/>
@@ -79,7 +79,7 @@ V creates:<br/>
             : "The storyboard reveals the breadth of our craft."}
         </h2>
         <img
-          src="/assets/service/stroke.svg"
+          src="/Ez_Labs_Assignment/assets/service/stroke.svg"
           alt="stroke"
           className={`  ${
             activeService
@@ -94,29 +94,29 @@ V creates:<br/>
           {/* background images */}
           <div className="absolute inset-0 -z-10 tablet:block hidden">
             <img
-              src={`/assets/service/${activeService.id}/1.svg`}
+              src={`/Ez_Labs_Assignment/assets/service/${activeService.id}/1.svg`}
               alt="bottomLeftImg"
               className="absolute bottom-10 laptop:left-20 "
             />
             <img
-              src={`/assets/service/${activeService.id}/2.svg`}
+              src={`/Ez_Labs_Assignment/assets/service/${activeService.id}/2.svg`}
               alt="topRightImg"
               className="absolute top-10 right-20 
               "
             />
             <img
-              src={`/assets/service/${activeService.id}/3.svg`}
+              src={`/Ez_Labs_Assignment/assets/service/${activeService.id}/3.svg`}
               alt="centerRightImg"
               className="absolute top-1/2 laptop:right-1/5 -translate-y-1/2 "
             />
             <img
-              src={`/assets/service/${activeService.id}/4.svg`}
+              src={`/Ez_Labs_Assignment/assets/service/${activeService.id}/4.svg`}
               alt="bottomRightImg"
               className="absolute bottom-10 right-20"
             />
             <div className="absolute hidden laptop:flex bottom-20 right-5/12 translate-x-1/2  flex-col items-center">
               <p className="font-text text-[24px] mb-2">Explore Now</p>
-              <img src={`/assets/service/Vector.svg`} alt="arrow" />
+              <img src={`/Ez_Labs_Assignment/assets/service/Vector.svg`} alt="arrow" />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ V creates:<br/>
             <div className="cursor-pointer laptop:max-w-[430px] min-w-[150px] tablet:min-w-[300px] min-h-[150px] tablet:min-h-[300px] laptop:min-h-[550px] bg-white flex flex-col items-center justify-center   p-2 tablet:p-5 shadow-[0px_11.4px_38px_0px_#00000040] ">
               <div className="w-full flex justify-center items-center overflow-hidden">
                 <img
-                  src={`/assets/service/${activeService.id}/main.png`}
+                  src={`/Ez_Labs_Assignment/assets/service/${activeService.id}/main.png`}
                   alt={activeService.heading}
                   className="max-w-full max-h-[400px] object-contain"
                 />
@@ -179,12 +179,12 @@ V creates:<br/>
               onClick={() => handleClick("film")}
             >
               <img
-                src="/assets/service/FilmProduction.png"
+                src="/Ez_Labs_Assignment/assets/service/FilmProduction.png"
                 alt=""
                 className=" w-[250px]  laptop:w-[390px] laptop:h-[465px] object-cover"
               />
               <img
-                src="/assets/service/tape.png"
+                src="/Ez_Labs_Assignment/assets/service/tape.png"
                 alt="tape"
                 className="absolute hidden laptop:block -left-[90px] -top-10 -rotate-25  w-60 h-[110px]
      "
@@ -199,12 +199,12 @@ V creates:<br/>
               onClick={() => handleClick("branding")}
             >
               <img
-                src="/assets/service/Branding.png"
+                src="/Ez_Labs_Assignment/assets/service/Branding.png"
                 alt=""
                 className="w-[250px]  laptop:w-[390px] laptop:h-[465px] object-cover"
               />
               <img
-                src="/assets/service/tape.png"
+                src="/Ez_Labs_Assignment/assets/service/tape.png"
                 alt="tape"
                 className="absolute hidden laptop:block w-60 h-[110px] rotate-15 right-[60px] -top-[65px]
      "
@@ -219,12 +219,12 @@ V creates:<br/>
               onClick={() => handleClick("art")}
             >
               <img
-                src="/assets/service/ArtCuration.png"
+                src="/Ez_Labs_Assignment/assets/service/ArtCuration.png"
                 alt=""
                 className="w-[250px]  laptop:w-[390px] laptop:h-[465px] object-cover"
               />
               <img
-                src="/assets/service/tape.png"
+                src="/Ez_Labs_Assignment/assets/service/tape.png"
                 alt="tape"
                 className="absolute hidden laptop:block -right-[90px] -top-10 rotate-25  w-60 h-[110px]
      "
@@ -236,7 +236,7 @@ V creates:<br/>
           </div>
           {/* Footer strip */}
           <img
-            src="/assets/service/Footer.svg"
+            src="/Ez_Labs_Assignment/assets/service/Footer.svg"
             alt="footer-design"
             className="absolute bottom-0 -m-2.5 -z-20 object-cover"
           />{" "}

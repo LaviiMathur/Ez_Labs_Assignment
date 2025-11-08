@@ -8,7 +8,7 @@ function Hero() {
 >
 
       <img
-        src="/assets/HeroLogo.svg"
+        src="/Ez_Labs_Assignment/assets/HeroLogo.svg"
         className="place-self-center w-[200px]   tablet:w-[565px]"
         alt="VFilms Logo"
       />
