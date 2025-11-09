@@ -33,7 +33,7 @@ function Portfolio() {
 
       {/* bottom circle */}
       <img
-        src="public/Ez_Labs_Assignment/assets/Footerircle.svg"
+        src="/Ez_Labs_Assignment/assets/Footerircle.svg"
         alt="footercircle"
         className="absolute -z-10 top-1/2  translate-x-full"
       />
